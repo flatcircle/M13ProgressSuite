@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char M13ProgressSuiteFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <M13ProgressSuiteFramework/PublicHeader.h>
 
 
+#import "M13ProgressViewRing.h"

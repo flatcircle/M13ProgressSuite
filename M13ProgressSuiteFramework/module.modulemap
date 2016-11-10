@@ -1,0 +1,9 @@
+framework module M13ProgessKit {
+    umbrella header "M13ProgressSuiteFramework.h"
+    
+    header "M13ProgressView.h"
+    header "M13ProgressViewRing.h"
+    
+    export *
+    module * { export * }
+}

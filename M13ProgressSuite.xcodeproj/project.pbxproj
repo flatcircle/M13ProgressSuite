@@ -57,8 +57,8 @@
 		CA66890618CBEF9300827C48 /* MetroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66890518CBEF9300827C48 /* MetroViewController.m */; };
 		CA6F31C7190EBF11008D1E64 /* LetterpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6F31C6190EBF11008D1E64 /* LetterpressViewController.m */; };
 		FB2A7BE11B793E5600FE4E4A /* M13ProgressSuiteFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2A7BE01B793E5600FE4E4A /* M13ProgressSuiteFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB2A7BF31B793E5600FE4E4A /* M13ProgressSuiteFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2A7BDC1B793E5600FE4E4A /* M13ProgressSuiteFramework.framework */; };
-		FB2A7BF41B793E5600FE4E4A /* M13ProgressSuiteFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB2A7BDC1B793E5600FE4E4A /* M13ProgressSuiteFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB2A7BF31B793E5600FE4E4A /* M13ProgressKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2A7BDC1B793E5600FE4E4A /* M13ProgressKit.framework */; };
+		FB2A7BF41B793E5600FE4E4A /* M13ProgressKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB2A7BDC1B793E5600FE4E4A /* M13ProgressKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB2A7BFC1B793E6B00FE4E4A /* M13ProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2FAFE11889937800BCAEF5 /* M13ProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB2A7BFD1B793E6B00FE4E4A /* M13ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2FAFE21889937800BCAEF5 /* M13ProgressView.m */; };
 		FB2A7BFE1B793E6B00FE4E4A /* M13ProgressViewBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2FAFE31889937800BCAEF5 /* M13ProgressViewBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -121,7 +121,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FB2A7BF41B793E5600FE4E4A /* M13ProgressSuiteFramework.framework in Embed Frameworks */,
+				FB2A7BF41B793E5600FE4E4A /* M13ProgressKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +129,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		578AAB701DD478CE00AD2936 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		CA1C945C18CCF59500B469BF /* M13ProgressViewMetroDotPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = M13ProgressViewMetroDotPolygon.h; path = Classes/ProgressViews/M13ProgressViewMetroDotPolygon.h; sourceTree = "<group>"; };
 		CA1C945D18CCF59500B469BF /* M13ProgressViewMetroDotPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = M13ProgressViewMetroDotPolygon.m; path = Classes/ProgressViews/M13ProgressViewMetroDotPolygon.m; sourceTree = "<group>"; };
 		CA2FAF981889907300BCAEF5 /* M13ProgressSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M13ProgressSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,7 +221,7 @@
 		CA6F31C2190EA88D008D1E64 /* M13ProgressViewLetterpress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = M13ProgressViewLetterpress.m; path = Classes/ProgressViews/M13ProgressViewLetterpress.m; sourceTree = "<group>"; };
 		CA6F31C5190EBF11008D1E64 /* LetterpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterpressViewController.h; sourceTree = "<group>"; };
 		CA6F31C6190EBF11008D1E64 /* LetterpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterpressViewController.m; sourceTree = "<group>"; };
-		FB2A7BDC1B793E5600FE4E4A /* M13ProgressSuiteFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13ProgressSuiteFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2A7BDC1B793E5600FE4E4A /* M13ProgressKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13ProgressKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2A7BDF1B793E5600FE4E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2A7BE01B793E5600FE4E4A /* M13ProgressSuiteFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M13ProgressSuiteFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2FAF9E1889907300BCAEF5 /* CoreGraphics.framework in Frameworks */,
-				FB2A7BF31B793E5600FE4E4A /* M13ProgressSuiteFramework.framework in Frameworks */,
+				FB2A7BF31B793E5600FE4E4A /* M13ProgressKit.framework in Frameworks */,
 				CA2FB03E1889975A00BCAEF5 /* QuartzCore.framework in Frameworks */,
 				CA2FB03C1889975400BCAEF5 /* CoreImage.framework in Frameworks */,
 				CA2FB03A1889974600BCAEF5 /* Accelerate.framework in Frameworks */,
@@ -278,7 +279,7 @@
 			children = (
 				CA2FAF981889907300BCAEF5 /* M13ProgressSuite.app */,
 				CA2FAFBC1889907300BCAEF5 /* M13ProgressSuiteTests.xctest */,
-				FB2A7BDC1B793E5600FE4E4A /* M13ProgressSuiteFramework.framework */,
+				FB2A7BDC1B793E5600FE4E4A /* M13ProgressKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -572,6 +573,7 @@
 			children = (
 				FB2A7BE01B793E5600FE4E4A /* M13ProgressSuiteFramework.h */,
 				FB2A7BDE1B793E5600FE4E4A /* Supporting Files */,
+				578AAB701DD478CE00AD2936 /* module.modulemap */,
 			);
 			path = M13ProgressSuiteFramework;
 			sourceTree = "<group>";
@@ -653,9 +655,9 @@
 			productReference = CA2FAFBC1889907300BCAEF5 /* M13ProgressSuiteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FB2A7BDB1B793E5600FE4E4A /* M13ProgressSuiteFramework */ = {
+		FB2A7BDB1B793E5600FE4E4A /* M13ProgressKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB2A7BF91B793E5600FE4E4A /* Build configuration list for PBXNativeTarget "M13ProgressSuiteFramework" */;
+			buildConfigurationList = FB2A7BF91B793E5600FE4E4A /* Build configuration list for PBXNativeTarget "M13ProgressKit" */;
 			buildPhases = (
 				FB2A7BD71B793E5600FE4E4A /* Sources */,
 				FB2A7BD81B793E5600FE4E4A /* Frameworks */,
@@ -666,9 +668,9 @@
 			);
 			dependencies = (
 			);
-			name = M13ProgressSuiteFramework;
+			name = M13ProgressKit;
 			productName = M13ProgressSuiteFramework;
-			productReference = FB2A7BDC1B793E5600FE4E4A /* M13ProgressSuiteFramework.framework */;
+			productReference = FB2A7BDC1B793E5600FE4E4A /* M13ProgressKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -677,7 +679,7 @@
 		CA2FAF901889907300BCAEF5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Brandon McQuilkin";
 				TargetAttributes = {
 					CA2FAFBB1889907300BCAEF5 = {
@@ -703,7 +705,7 @@
 			targets = (
 				CA2FAF971889907300BCAEF5 /* M13ProgressSuite */,
 				CA2FAFBB1889907300BCAEF5 /* M13ProgressSuiteTests */,
-				FB2A7BDB1B793E5600FE4E4A /* M13ProgressSuiteFramework */,
+				FB2A7BDB1B793E5600FE4E4A /* M13ProgressKit */,
 				CA2FB0431889986D00BCAEF5 /* Documentation */,
 			);
 		};
@@ -825,7 +827,7 @@
 		};
 		FB2A7BF21B793E5600FE4E4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FB2A7BDB1B793E5600FE4E4A /* M13ProgressSuiteFramework */;
+			target = FB2A7BDB1B793E5600FE4E4A /* M13ProgressKit */;
 			targetProxy = FB2A7BF11B793E5600FE4E4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -879,13 +881,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -898,7 +906,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -918,20 +926,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -947,6 +960,7 @@
 				GCC_PREFIX_HEADER = "M13ProgressSuite/M13ProgressSuite-Prefix.pch";
 				INFOPLIST_FILE = "M13ProgressSuite/M13ProgressSuite-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -961,6 +975,7 @@
 				GCC_PREFIX_HEADER = "M13ProgressSuite/M13ProgressSuite-Prefix.pch";
 				INFOPLIST_FILE = "M13ProgressSuite/M13ProgressSuite-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -982,6 +997,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "M13ProgressSuiteTests/M13ProgressSuiteTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1000,6 +1016,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "M13ProgressSuite/M13ProgressSuite-Prefix.pch";
 				INFOPLIST_FILE = "M13ProgressSuiteTests/M13ProgressSuiteTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1024,6 +1041,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1041,7 +1059,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = M13ProgressSuiteFramework/module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1053,6 +1073,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1067,7 +1088,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = M13ProgressSuiteFramework/module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonMcQuilkin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1114,13 +1137,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB2A7BF91B793E5600FE4E4A /* Build configuration list for PBXNativeTarget "M13ProgressSuiteFramework" */ = {
+		FB2A7BF91B793E5600FE4E4A /* Build configuration list for PBXNativeTarget "M13ProgressKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB2A7BF51B793E5600FE4E4A /* Debug */,
 				FB2A7BF61B793E5600FE4E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
